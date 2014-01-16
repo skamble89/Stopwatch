@@ -1,0 +1,32 @@
+#stopwatch{
+
+width:20%;
+margin:auto;
+border:1px solid #000;
+background-color:#000;
+padding:5px;
+
+}
+
+
+#screen span{
+
+display:inline-block;
+text-align:center;
+font-size:50px;
+width:30%;
+color:#fff;
+border:1px solid #fff;
+
+}
+
+#buttons input{
+width:47%;
+height:30px;
+margin-top:5px;
+border:1px;
+}
+
+#buttons input:hover{
+background-color:#aaa;
+}
