@@ -1,25 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!--
-For simplicity, not using any JS library
--->
-<title>Stopwatch</title>
-<link type="text/css" rel="stylesheet" href="Style.css"/>
-<script type="text/javascript" src="Stopwatch.js"></script>
-</head>
-<body>
-<div id="stopwatch">
-	<div id="screen">
-		<span id="mins">00</span>
-		<span id="secs">00</span>
-		<span id="msecs">00</span>
-	</div>
-	<div id="buttons">
-		<input id="startStop" type="button" value="Start"/>
-		<input id="reset" type="button" value="Reset"/>
-	</div>
-</div>
-<script type="text/javascript" src="onLoad.js"></script>
-</body>
+	<head>
+		<title>Stopwatch - Analog</title>		
+		<script type="text/javascript" src="Stopwatch.js"></script>
+	</head>
+	<body>
+		<canvas id="canvas"></canvas>
+	</body>
 </html>
